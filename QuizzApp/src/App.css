@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+.ssvg{
+  position: absolute;
+  z-index: -10;
+}
+.first{
+  right: 1;
+  left: 0;
+  transform: rotate(20deg);
+}
+.second{
+  right: 4;
+  left: 10px;
+  top: 1;
+  bottom: 0;
+  transform: rotate(20deg);
+}
+.third{
+  right: 60px;
+  bottom: 400px;
+  transform: rotate(-30deg);
+}
+.fourth{
+  right: 500px;
+  top: 20px;
+  transform: rotate(-20deg);
+}
+.sone{
+  right: 30px;
+  top: 10px;
+  transform: rotate(20deg);
+}
+.stwo{
+  left: 30px;
+  top: 100px;
+  transform: rotate(-70deg);
+}
+.sthree{
+  right: 30px;
+bottom: 50px;
+  transform: rotate(-70deg);
+}
+.sfour{
+  left: 0;
+  bottom: 200px;
+  transform: rotate(40deg);
+}
+.sfive{
+  left: 310px;
+  top: 12px;
+  transform: rotate(-20deg);
+}
