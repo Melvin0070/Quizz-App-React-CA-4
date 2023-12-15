@@ -45,6 +45,8 @@ function questionContainer(props) {
             {props.data[number].text}
           </h2>
           <div className="options">
+              
+              {/*Displaying all the option for the specific question*/}
             {props.data[number].options.map((option, index) => (
               <button style={{ color: props.theme ? '#242424' : 'white' , backgroundColor: props.theme ? '#A8A6FF':'#242424'}}
                 key={index}
